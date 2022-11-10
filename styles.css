@@ -1,3 +1,41 @@
 .background {
   background-color: #1c1a19;
 }
+
+.color {
+  color: #f55800;
+}
+
+.no-style {
+  list-style-type: none;
+}
+
+.height {
+  height: 650px;
+  box-sizing: border-box;
+  background-image: url(./assets/Illustration-header@2x.png);
+  background-repeat: no-repeat;
+  background-size: 40% 700px;
+  background-position: 100% 120%;
+}
+
+.button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #f55800;
+}
+
+.about-height {
+  height: 800px;
+  background-image: url("./assets/Frame.png");
+  background-repeat: no-repeat;
+  background-position: 100% 8%;
+}
+
+.max {
+  max-width: 550px;
+}
