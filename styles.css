@@ -28,3 +28,14 @@
   color: #ffffff;
   background-color: #f55800;
 }
+
+.about-height {
+  height: 800px;
+  background-image: url("./assets/Frame.png");
+  background-repeat: no-repeat;
+  background-position: 100% 8%;
+}
+
+.max {
+  max-width: 550px;
+}
