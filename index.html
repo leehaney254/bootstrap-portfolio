@@ -10,35 +10,23 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Kamran & Lee portfolio</title>
   </head>
   <body>
     <!--Our nav bar-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">Kamran Lee</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="col-4lapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <div class="justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="col-4lapse navbar-col-4lapse justify-content-end"
-            id="navbarNav"
-          >
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >portfolio</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About</a>
@@ -54,13 +42,14 @@
             </ul>
           </div>
         </div>
+        </div>
       </nav>
     </header>
 
     <!--Our first page-->
-    <section class="bg-dark text-white">
-      <div class="container">
-        <h1>
+    <section class="text-white background d-flex flex-row-reverse align-items-center height">
+      <div class="container py-5">
+        <h1 class="color">
           Hey there. <br />
           We are Kamran and Lee
         </h1>
@@ -71,7 +60,7 @@
           you need coded, don’t hestiate to contact me.
         </p>
       </div>
-      <ul>
+      <ul class="no-style">
         <li>
           <a href="https://github.com/leehaney254"
             ><img src="./assets/github.png" alt="Link to my github page"
@@ -100,11 +89,17 @@
         </li>
       </ul>
     </section>
+
+    <!--Our second page-->
     <section>
-      <div class="card">
+      <div class="row py-5">
+        <h2 class="col">My Recent Works</h2>
+        <br class="col">
+      </div>
+      <div class="card d-flex flex-row my-5">
         <img src="./assets/large.png" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Multi-Post Stories</h5>
+          <h3 class="card-title">Multi-Post Stories</h3>
           <p class="card-text">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard dummy text ever
@@ -115,23 +110,23 @@
           <button type="button" class="btn btn-light">bootstrap</button>
           <button type="button" class="btn btn-light">Ruby</button>
           <div>
-            <button type="button" class="btn btn-secondary btn-lg">
+            <button type="button" class="btn button btn-lg">
               See Project
             </button>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="card col" style="width: 18rem">
+      <div class="row my-3">
+        <div class="card" style="width: 10rem">
           <img
             src="./assets/Img Placeholder.png"
             class="card-img-top"
             alt="..."
           />
-          <a href="#" class="btn btn-primary">See Project</a>
+          <a href="#" class="btn button">See Project</a>
         </div>
 
-        <div class="card bg-dark text-white col" style="width: 18rem">
+        <div class="card bg-dark text-white" style="width: 18rem">
           <img src="./assets/cardimg1.png" class="card-img" alt="..." />
           <div class="card-img-overlay">
             <h5 class="card-title">
@@ -167,7 +162,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mb-5">
         <div class="card bg-dark text-white col" style="width: 18rem">
           <img src="./assets/rest-card.png" class="card-img" alt="..." />
           <div class="card-img-overlay">
@@ -227,14 +222,14 @@
     <!--Our third page-->
     <section class="bg-dark text-white">
       <div class="container">
-        <h2>About me</h2>
+        <h2 class="color">About me</h2>
         <p>
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience! If you
           like what you see and have a project you need coded, don’t hestiate to
           contact me.
         </p>
-        <button type="button" class="btn btn-primary btn-lg">
+        <button type="button" class="btn button btn-lg">
           Get My Resume
         </button>
       </div>
@@ -290,13 +285,13 @@
         <div class="mb-3">
          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Hello Mariani. Glad to see you!</textarea>
         </div>
-        <input class="btn btn-primary" type="submit" value="Get in touch">         
+        <input class="btn button" type="submit" value="Get in touch">         
         </div>
         </div>
       </section>
       
       <div class="bg-white">
-        <ul>
+        <ul class="d-flex flex-row">
           <li>
             <a href="https://github.com/leehaney254"
               ><img src="./assets/gitfoot.png" alt="Link to my github page"
