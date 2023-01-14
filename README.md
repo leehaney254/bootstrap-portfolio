@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 - An IDE
 
 ### Deployment
-A live demo can be found [here.]()
+A live demo can be found [here.](https://leehaney254.github.io/bootstrap-portfolio/)
 
 ## Authors
 
