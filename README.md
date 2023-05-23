@@ -1,6 +1,6 @@
 
 # Bootstrap Portfolio
-> This project is a Bootstrap-portfolio which is created using CSS framework's bootstrap concept with a little touch to css.
+> This project is a Bootstrap-portfolio which is created using CSS framework's bootstrap concept with a little touch to css. Always working to improve our coding skills.
 
 ## Built With
 - Bootstrap
